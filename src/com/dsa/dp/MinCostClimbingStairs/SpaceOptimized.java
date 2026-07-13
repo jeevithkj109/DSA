@@ -11,10 +11,8 @@ public class SpaceOptimized {
 		if(n <= 1) {
 			return 0;
 		}
-		dp[0] = 0;
-		dp[1] = 0;
-		dp[2] = Math.min(dp[0]+cost[0],dp[1]+cost[1]);
-		for(int i = 3;i <= n; i++) {
+
+		for(int i = 2;i <= n; i++) {
 			dp[0] = dp[1];
 			dp[1] = dp[2];
 			dp[2] = Math.min(dp[0]+cost[i-2],dp[1]+cost[i-1]);
