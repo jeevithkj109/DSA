@@ -29,9 +29,9 @@ public class SpaceOptimized {
 	}
 
 	public static void main(String[] args) {
-		int[] profits = { 1, 2, 3, 4, 5 };
-		int n = profits.length;
+		int[] prices = { 1, 2, 3, 4, 5 };
+		int n = prices.length;
 
-		System.out.println(maximumProfit(n, profits));
+		System.out.println(maximumProfit(n, prices));
 	}
 }

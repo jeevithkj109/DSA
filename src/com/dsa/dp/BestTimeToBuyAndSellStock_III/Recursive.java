@@ -21,9 +21,9 @@ public class Recursive {
 	}
 	
 	public static void main(String[] args) {
-		int[] profits = {3,3,5,0,0,3,1,4};
-		int n = profits.length;
+		int[] prices = {3,3,5,0,0,3,1,4};
+		int n = prices.length;
 		
-		System.out.println(maximumProfit(0, 1, 2, n, profits));
+		System.out.println(maximumProfit(0, 1, 2, n, prices));
 	}
 }

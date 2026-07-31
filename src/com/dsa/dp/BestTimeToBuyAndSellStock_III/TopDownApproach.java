@@ -30,8 +30,8 @@ public class TopDownApproach {
 	}
 	
 	public static void main(String[] args) {
-		int[] profits = {1,2,3,4,5};
-		int n = profits.length;
+		int[] prices = {1,2,3,4,5};
+		int n = prices.length;
 		
 		
 		//int[index][buy][transaction]
@@ -45,6 +45,6 @@ public class TopDownApproach {
 			}
 		}
 		
-		System.out.println(maximumProfit(0, 1, 2, n, profits, dp));
+		System.out.println(maximumProfit(0, 1, 2, n, prices, dp));
 	}
 }
