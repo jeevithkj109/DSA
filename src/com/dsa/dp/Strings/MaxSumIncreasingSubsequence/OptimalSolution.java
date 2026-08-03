@@ -1,4 +1,4 @@
-package com.dsa.dp.Strings.SumIncreasingSubsequence;
+package com.dsa.dp.Strings.MaxSumIncreasingSubsequence;
 
 /* Given an array of positive integers arr[], find the maximum sum of a subsequence such that the elements of the subsequence
  * form a strictly increasing sequence.
